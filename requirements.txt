@@ -1,0 +1,2 @@
+gspread==0.0.15
+wsgiref==0.1.2
