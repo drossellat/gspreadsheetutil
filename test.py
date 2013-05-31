@@ -1,8 +1,8 @@
 import gspreadwrapper
 
-user = 'david.rossellat@gmail.com'
-id = '0AoaX3_6iySVKdE10blRXaU1JZENGTUdjN0F5TVMzVUE'
-pw = '8000Zurich$'
+user = 'your gdoc username here'
+id = 'your gdoc unique id here'
+pw = 'your gdoc password here'
 column =2
 
 try:
