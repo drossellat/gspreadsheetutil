@@ -10,7 +10,7 @@ Python 2.6+ or Python 3+
 
 ```sh
 git clone https://github.com/drossellat/gspreadsheetutil
-cd gspread
+cd gspreadsheetutil
 python setup.py install
 ```
 
