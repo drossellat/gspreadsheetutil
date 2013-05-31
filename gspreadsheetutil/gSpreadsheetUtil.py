@@ -68,12 +68,12 @@ def main():
   try:
 	gSpreadsheet = GspreadsheetUtil(user, pw, id, column)
 	#get a set without column header
-	email_set=set(gSpreadsheet.returnSingleColumnFirstWorksheet()[1:])
+	column_set=set(gSpreadsheet.returnSingleColumnFirstWorksheet()[1:])
   except WrapperError as err:
   	print str(err)
   	exit()
-  for email in email_set:
-  	print email
+  for cell in column_set:
+  	print cell
 
 
 if __name__ == '__main__':
